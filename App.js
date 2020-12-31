@@ -19,11 +19,11 @@ import ResolveAuthScreen from './src/screens/ResolveAuthScreen'
      SignIn: SignInScreen
    }),
    mainFlow: createBottomTabNavigator({
-     trackListFlow: createStackNavigator({
+     Track: createStackNavigator({
        TrackList: TrackList,
        TrackDetail: TrackDetail
      }),
-     CreateTrack: TrackCreateScreen,
+     Create: TrackCreateScreen,
      Account: AccountScreen
    })
  })
